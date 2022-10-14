@@ -14,6 +14,10 @@ Rich Copy is extension to make life easier when copy-pasting code snippets to ch
 
 Users appreciate release notes as you update your extension.
 
+### 0.0.2
+
+Add missing activationEvents configuration
+
 ### 0.0.1
 
 Initial release of Rich Copy extension

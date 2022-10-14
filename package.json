@@ -1,8 +1,9 @@
 {
   "name": "rich-copy",
   "displayName": "Rich Copy",
+  "publisher": "mariom",
   "description": "Copy selected code with rich information",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.72.0"
   },
@@ -10,7 +11,14 @@
     "Other"
   ],
   "preview": true,
-  "activationEvents": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/11mariom/vscode-rich-copy.git"
+  },
+  "activationEvents": [
+    "onCommand:rich-copy.richCopy",
+    "onCommand:rich-copy.richCopyMarkdown"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
